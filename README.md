@@ -1,0 +1,2 @@
+# HHNavigationconSupportLeftBack
+对TZScrollViewPopGesture进行扩展，支持设定透明导航，以及透明导航侧滑返回不透明导航时的渐变效果处理；可设置特定页面不支持侧滑返回
