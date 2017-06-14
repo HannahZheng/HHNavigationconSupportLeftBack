@@ -126,6 +126,7 @@ static char *navHairLineKey = "navHairLineKey";
 
 - (UIImageView *)hh_navHairLine{
     UIImageView *hairLine = objc_getAssociatedObject(self, navHairLineKey);
+    hairLine = [self findHairlineImageViewUnder:self.navigationBar];
     return hairLine;
 }
 
